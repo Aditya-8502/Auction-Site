@@ -6,7 +6,7 @@ body{
   margin-top:0;
   margin-left:0;
   margin-right:0;
-  background-color: #6b6b6b;
+  background-color: #205375;
   text-align: center;
   vertical-align: middle;
 }
@@ -170,9 +170,7 @@ transform: translateY(-1px);
 .searchBar:hover{
 	background-color:#e4e4e4;
 }
-.items{
-	border:black;
-}
+
 .items li{
 	
 	color:white;
@@ -186,10 +184,9 @@ transform: translateY(-1px);
 	
 	color:#F8B400;
 	font-weight: bolder;
-	text-align:center;
-	padding:0px 10px 30px 90px;
+	text-align:right;
+	padding:0px 30px 20px 70px;
 	margin-top:10px;
-	margin-right:30px;
 	
 }
 .items hr{
@@ -225,9 +222,8 @@ transform: translateY(-1px);
 	
 }
 .bb_blue{
- margin-top:20px;
- margin-left: 400px;
- padding: 1.3em 3em ;
+	margin: 10px;
+ padding: 1.3em 3em;
  font-size: 12px;
  text-transform: uppercase;
  letter-spacing: 2.5px;
@@ -252,7 +248,7 @@ transform: translateY(-1px);
  transform: translateY(-1px);
 }
 .bb_red{
- margin: 10px;
+	margin: 10px;
  padding: 1.3em 3em;
  font-size: 12px;
  text-transform: uppercase;
@@ -270,7 +266,7 @@ transform: translateY(-1px);
 .bb_red:hover {
  background-color: #ff3e3e;
  box-shadow: 0px 15px 20px rgba(238, 232, 170, 0.4);
- color: #fff;
+ color: black;
  transform: translateY(-7px);
 }
 
@@ -278,8 +274,8 @@ transform: translateY(-1px);
  transform: translateY(-1px);
 }
 .pageNum{
-	background-color:#004080;
-	color: white;
+	background-color:#EFEFEF;
+	color: black;
 	padding: 10px;
 	outline: 2px solid black;
 }
@@ -435,7 +431,8 @@ tr:nth-child(even){
 .filterbox{
 	float: left;
 	margin-left: 30px;
-  padding-top: 100px;
+    padding-top: 100px;
+    position:relative;
 }
 
 .filterbox input{
@@ -445,14 +442,10 @@ tr:nth-child(even){
     width: 150px;
 }
 
-
-.SR table{
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:30px;
+.bb_blue[name = 'bidbutton']{
+	margin-left:450px;
 }
-
 .closedauction{
 	background-color:red;
-	margin-left:400px;
+	margin-left:450px;
 }
