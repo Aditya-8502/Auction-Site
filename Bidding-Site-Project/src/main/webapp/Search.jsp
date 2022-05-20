@@ -328,13 +328,11 @@
 						<%	
 						if(closed_auction!=null){
 						%>
-							<div class = "closed auction"> 
 							<h1 class = "closedauction "> This Auction Is Closed </h1>
-							</div>
 						<%
 						}else{
 						%>
-							<button class ="bb_blue" id=<% out.print("Button"+vin); %>>Bid For Item</button>
+							<button class ="bb_blue" name = "bidbutton" id=<% out.print("Button"+vin); %>>Bid For Item</button>
 						<% 
 						}
 						%>	
